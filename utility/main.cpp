@@ -12,6 +12,15 @@
 
 using namespace std;
 
+void sayHelp()
+{
+	cout << "Unknown command. Please, use this commands:\n";
+	cout << "utility -compress fileFrom fileTo\n";
+	cout << "utility compress fileFrom fileTo\n";
+	cout << "utility -decompress fileFrom fileTo\n";
+	cout << "utility decompress fileFrom fileTo\n";
+}
+
 int main(int argc, char* argv[])
 {
 	if (argc == 4)
@@ -19,7 +28,7 @@ int main(int argc, char* argv[])
 		string command = argv[1];
 		string fileFrom = argv[2];
 		string fileTo = argv[3];
-		if (command == "compress")
+		if (command == "compress" || command == "-compress")
 		{
 			unsigned long long t1 = clock();
 			std::cout << "Start compression\n";
@@ -76,7 +85,7 @@ int main(int argc, char* argv[])
 			unsigned long long t2 = clock();
 			std::cout << "Time is " << static_cast<double>(t2 - t1) / CLOCKS_PER_SEC << "\n";
 		}
-		if (command == "decompress")
+		 else if (command == "decompress" || command == "-decompress")
 		{
 			unsigned long long t1 = clock();
 			std::cout << "Start decompression\n";
@@ -160,6 +169,14 @@ int main(int argc, char* argv[])
 			unsigned long long t2 = clock();
 			std::cout << "Time is " << static_cast<double>(t2 - t1) / CLOCKS_PER_SEC << "\n";
 		}
+		else
+		{
+			sayHelp();
+		}
+	}
+	else
+	{
+		sayHelp();
 	}
 	return 0;
 }

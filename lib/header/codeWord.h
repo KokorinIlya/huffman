@@ -10,7 +10,6 @@ public:
 
 	void addBit(bool bit);
 	void removeBit();
-	void setBit(bool bit, size_t index);
 
 	size_t getLength() const;
 
