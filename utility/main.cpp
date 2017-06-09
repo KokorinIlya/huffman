@@ -9,6 +9,7 @@
 #include "huffmanLibrary.h"
 #include <ctime>
 #include <cstring>
+#include <string>
 
 using namespace std;
 
