@@ -2,6 +2,8 @@
 #include <vector>
 #include <iostream>
 #include "workingWithFilesExceptions.h"
+#include <cstdint>
+#include <cstdlib>
 
 using namespace std;
 

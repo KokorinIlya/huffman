@@ -1,6 +1,9 @@
 #ifndef WORKING_WITH_FILES_EXCEPTIONS
 #define WORKING_WITH_FILES_EXCEPTIONS
 #include <stdexcept>
+#include <string>
+#include <cstdint>
+#include <cstdlib>
 
 struct openFileException : std::runtime_error
 {

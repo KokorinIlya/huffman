@@ -1,6 +1,8 @@
 #include "myFileReader.h"
 #include "workingWithFilesExceptions.h"
 #include <iostream>
+#include <cstdint>
+#include <cstdlib>
 
 myFileReader::myFileReader(std::string const& _fileName) : stream(),
 fileName(_fileName),

@@ -2,6 +2,8 @@
 #include "workingWithFilesExceptions.h"
 #include <iostream>
 #include <cassert>
+#include <cstdint>
+#include <cstdlib>
 
 using namespace  std;
 

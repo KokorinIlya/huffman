@@ -3,6 +3,8 @@
 #include <cassert>
 #include "huffmanEncryptor.h"
 #include "constantsAndTypes.h"
+#include <cstdint>
+#include <cstdlib>
 
 using namespace std;
 

@@ -4,6 +4,8 @@
 #include <fstream>
 #include <string>
 #include "huffmanLibrary.h"
+#include <cstdint>
+#include <cstdlib>
 
 struct myFileWriter
 {

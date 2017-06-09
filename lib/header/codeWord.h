@@ -1,6 +1,9 @@
 #ifndef CODE_WORD
 #define CODE_WORD
 
+#include <cstdint>
+#include <cstdlib>
+
 struct CodeWord
 {
 public:

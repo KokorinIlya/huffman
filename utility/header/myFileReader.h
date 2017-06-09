@@ -4,6 +4,7 @@
 #include <fstream>
 #include <string>
 #include "huffmanLibrary.h"
+#include <cstdlib>
 
 struct myFileReader
 {

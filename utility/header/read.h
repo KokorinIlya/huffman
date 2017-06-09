@@ -4,6 +4,8 @@
 #include <vector>
 #include "myFileReader.h"
 #include "huffmanLibrary.h"
+#include <cstdint>
+#include <cstdlib>
 
 void readTree(myFileReader& reader, std::vector<uint16_t>& tree);
 

@@ -2,6 +2,8 @@
 #include "libraryExceptions.h"
 #include <iostream>
 #include "constantsAndTypes.h"
+#include <cstdint>
+#include <cstdlib>
 
 using namespace std;
 

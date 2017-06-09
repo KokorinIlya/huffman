@@ -10,6 +10,8 @@
 #include <ctime>
 #include <cstring>
 #include <string>
+#include <cstdint>
+#include <cstdlib>
 
 using namespace std;
 

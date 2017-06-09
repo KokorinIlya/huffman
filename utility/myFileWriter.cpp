@@ -1,6 +1,8 @@
 #include "myFileWriter.h"
 #include "workingWithFilesExceptions.h"
 #include <iostream>
+#include <cstdint>
+#include <cstdlib>
 
 myFileWriter::myFileWriter(std::string const& _fileName) : stream(),
 fileName(_fileName),

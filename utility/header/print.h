@@ -3,6 +3,8 @@
 #include <vector>
 #include "myFileWriter.h"
 #include "huffmanLibrary.h"
+#include <cstdint>
+#include <cstdlib>
 
 void printTree(myFileWriter& writer, huffmanEncryptor const& encryptor);
 

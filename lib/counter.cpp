@@ -2,6 +2,8 @@
 #include <iostream>
 #include "counter.h"
 #include "constantsAndTypes.h"
+#include <cstdint>
+#include <cstdlib>
 
 Counter::Counter() : counter(COUNTER_SIZE) {}
 

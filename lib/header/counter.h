@@ -1,6 +1,8 @@
 #ifndef COUNTER
 #define COUNTER
 #include <vector>
+#include <cstdint>
+#include <cstdlib>
 
 struct Counter
 {

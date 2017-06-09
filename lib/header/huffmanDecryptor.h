@@ -1,6 +1,8 @@
 #ifndef HUFFMAN_DECRYPTOR
 #define HUFFMAN_DECRYPTOR
 #include <vector>
+#include <cstdint>
+#include <cstdlib>
 
 struct huffmanDecryptor
 {

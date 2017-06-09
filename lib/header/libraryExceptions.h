@@ -1,6 +1,8 @@
 #ifndef LIBRARY_EXCEPTIONS
 #define LIBRARY_EXCEPTIONS
 #include <stdexcept>
+#include <cstdint>
+#include <cstdlib>
 
 struct incorrectFileException : std::runtime_error
 {

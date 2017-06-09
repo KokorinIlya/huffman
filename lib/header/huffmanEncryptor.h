@@ -3,6 +3,8 @@
 
 #include "counter.h"
 #include "codeWord.h"
+#include <cstdint>
+#include <cstdlib>
 
 struct huffmanEncryptor
 {
