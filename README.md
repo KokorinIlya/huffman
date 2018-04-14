@@ -6,11 +6,11 @@ Simple C++ console utility, that performs file compressing and decompressing, us
 
 # Running:
 
-utility -compress fileFrom fileTo
+*utility -compress fileFrom fileTo*
 
 For compressing fileFrom and writing compressed data to fileTo
 
-utility -decompress fileFrom fileTo
+*utility -decompress fileFrom fileTo*
 
 For decompressing fileFrom and writing decoded information to fileTo.
 
