@@ -18,4 +18,4 @@ If fileFrom isn't file with compressed data, created by the application, decondi
 
 # Building
 
-Run Cmake from the main directory. After running Cmake, run make for finishing building.
+Run Cmake from the main directory for creating Makefile. After running Cmake, run make for finishing building.
